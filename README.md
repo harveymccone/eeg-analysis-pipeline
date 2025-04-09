@@ -1,4 +1,4 @@
-# EEG Analysis Pipeline: ERP & Time-Frequency Analysis
+# EEG Analysis Pipeline for ERP & Time-Frequency Analysis
 
 This repository contains the complete analysis pipeline used in the published study:  
 
@@ -11,29 +11,37 @@ It includes preprocessing, statistical analysis, and visualisation of EEG data u
 ---
 
 ## Project Summary
-- **Data Type**: High-dimensional time series EEG (128 channels) and behavioural data
-- **Tools Used**: Python (e.g. NumPy, Pandas, SciPy, matplotlib seaborn, MNE), MATLAB
+- **Data Type**: High-dimensional time series EEG (128 channels) from human participants, alongside behavioural data
+- **Tools Used**: Python (e.g. NumPy, Pandas, SciPy, matplotlib seaborn, MNE-Python), MATLAB
 - **Goal**: Understand the relationship between ERP components, time-frequency power modulations, and human behaviour in a cognitive task.
 
 ---
 
 ## Pipeline Overview
 
-### Preprocessing
+This pipeline performs a series of modular steps for preprocessing, analysis, and visualization:
+
+### 1. Preprocessing
 - Artifact rejection, filtering, epoching
 - CSD transformation (in MATLAB)
 - Data conversion between MATLAB and Python
 - Extraction of time-frequency data using Fourier Transform
 
-### Analysis and Visualisation 
+### 2. Time-Frequency Analysis
+- Extraction of time-frequency data using Fourier Transform
+
+### 3. Statistical Analysis and Visualisation 
 - Plotting average waveforms and topographies
-- Statistical testing (e.g. ANOVA, LMMs)
+- Statistical testing (e.g. ANOVA, Linear Mixed Models)
   
 ---
 
 ## Folder Guide
 - `/matlab` — Contains CSD transformation script
-- `/python` — Full pipeline: preprocessing, analysis, plotting
+- `/python` — — Contains the Python scripts for:
+  - Preprocessing (`preprocessing.ipyb`)
+  - Time-frequency analysis (`timefreq_analysis.py`)
+  - Statistical analysis and visualization (e.g., `plot_erp.py`, `stats_erp.py`)
 
 ---
 
