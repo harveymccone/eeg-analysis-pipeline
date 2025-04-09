@@ -11,7 +11,7 @@ It includes preprocessing, statistical analysis, and visualisation of EEG data u
 ---
 
 ## Project Summary
-- **Data Type**: High-dimenstional time series EEG (128 channels) and behavioural data
+- **Data Type**: High-dimensional time series EEG (128 channels) and behavioural data
 - **Tools Used**: Python (e.g. NumPy, Pandas, SciPy, matplotlib seaborn, MNE), MATLAB
 - **Goal**: Understand the relationship between ERP components, time-frequency power modulations, and human behaviour in a cognitive task.
 
