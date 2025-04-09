@@ -39,8 +39,8 @@ This pipeline performs a series of modular steps for preprocessing, analysis, an
 ## Folder Guide
 - `/matlab` — Contains CSD transformation script
 - `/python` — — Contains the Python scripts for:
-  - Preprocessing (`preprocessing.ipyb`)
-  - Time-frequency analysis (`timefreq_analysis.py`)
+  - Preprocessing (`preprocessing.ipynb`)
+  - Time-frequency analysis (`extract_time_frequency_data.ipynb`)
   - Statistical analysis and visualization (e.g., `plot_erp.py`, `stats_erp.py`)
 
 ---
