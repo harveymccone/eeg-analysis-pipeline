@@ -41,7 +41,7 @@ This pipeline performs a series of modular steps for preprocessing, analysis, an
 - `/python` — — Contains the Python scripts for:
   - Preprocessing (`preprocessing.ipynb`)
   - Time-frequency analysis (`extract_time_frequency_data.ipynb`)
-  - Statistical analysis and visualization (e.g., `plot_erp.py`, `stats_erp.py`)
+  - Statistical analysis and visualization (e.g., `plot_erps.py`, `analysis_erps.py`)
 
 ---
 
