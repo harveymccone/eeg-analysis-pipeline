@@ -1,7 +1,10 @@
 # EEG Analysis Pipeline: ERP & Time-Frequency Analysis
 
 This repository contains the complete analysis pipeline used in the published study:  
-*"Signatures of time interval reproduction in the human electroencephalogram (EEG)"* – [Imaging Neuroscience (MIT Press), 2024]([https://doi.org/10.1162/imag_a_00279])
+
+*"Signatures of time interval reproduction in the human electroencephalogram (EEG)"* – [Imaging Neuroscience (MIT Press), 2024] 
+
+[https://doi.org/10.1162/imag_a_00279]
 
 It includes preprocessing, statistical analysis, and visualisation of EEG data using MATLAB and Python. 
 
@@ -10,7 +13,7 @@ It includes preprocessing, statistical analysis, and visualisation of EEG data u
 ## Project Summary
 - **Data Type**: High-dimenstional time series EEG (128 channels) and behavioural data
 - **Tools Used**: Python (e.g. NumPy, Pandas, SciPy, matplotlib seaborn, MNE), MATLAB
-- **Goal**: Analyze the relationship between ERP components, time-frequency power modulations and human behaviour in a cognitive task.
+- **Goal**: Understand the relationship between ERP components, time-frequency power modulations, and human behaviour in a cognitive task.
 
 ---
 
@@ -36,6 +39,9 @@ It includes preprocessing, statistical analysis, and visualisation of EEG data u
 
 ## Publication
 Statistical analysis and visualisation generated from this pipeline can be viewed in:  
+
 **"Signatures of time interval reproduction in the human electroencephalogram (EEG)"**  
+
 *Imaging Neuroscience (MIT Press)*, 2024  
+
 [https://doi.org/10.1162/imag_a_00279]
