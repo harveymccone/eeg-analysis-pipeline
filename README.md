@@ -2,9 +2,9 @@
 
 This repository contains the complete analysis pipeline used in the published study:  
 
-*"Signatures of time interval reproduction in the human electroencephalogram (EEG)"* – [Imaging Neuroscience (MIT Press), 2024] 
+*"Signatures of time interval reproduction in the human electroencephalogram (EEG)"* – (Imaging Neuroscience (MIT Press), 2024) 
 
-[https://doi.org/10.1162/imag_a_00279]
+https://doi.org/10.1162/imag_a_00279
 
 It includes preprocessing, statistical analysis, and visualisation of EEG data using MATLAB and Python. 
 
@@ -40,8 +40,6 @@ It includes preprocessing, statistical analysis, and visualisation of EEG data u
 ## Publication
 Statistical analysis and visualisation generated from this pipeline can be viewed in:  
 
-**"Signatures of time interval reproduction in the human electroencephalogram (EEG)"**  
+**"Signatures of time interval reproduction in the human electroencephalogram (EEG)"**  *(Imaging Neuroscience (MIT Press), 2024)*  
 
-*Imaging Neuroscience (MIT Press)*, 2024  
-
-[https://doi.org/10.1162/imag_a_00279]
+https://doi.org/10.1162/imag_a_00279
